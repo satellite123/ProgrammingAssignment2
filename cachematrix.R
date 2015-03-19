@@ -1,5 +1,5 @@
 # to make computations more effective its better to use cache
-# function makeCacheMatrix creates a list that contains
+# function makeCacheMatrix creates a list that
 # 1. set the value of the matrix
 # 2. get the value of the matrix
 # 3. set the value of inverse of the matrix
@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 #  this function returns the inverse of matrix
-# it first checks if the inverse was compuded
+# it first checks if the inverse was computed
 # in othercase it inverses it and puts it in cashe with setinversematr 
 cacheSolve <- function(x, ...) {
     inv <- x$getinversematr()
